@@ -18,10 +18,10 @@ body {
 }
 
 .container {
-  margin-top: -102px;
+  margin-top: -85px;
   padding: 20px;
   padding: 40px 20px;
-  max-width: 510px;
+  max-width: 600px;
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -67,7 +67,7 @@ p {
 
 .btn {
   padding: 14px 20px;
-  border-radius: 50px;
+  border-radius: 27px;
   text-decoration: none;
   color: white;
   font-size: 1em;
@@ -126,5 +126,15 @@ footer {
   text-align: center;
   font-size: 14px;
   color: #333;
-  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+
+.myinsta {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+ 
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
 }
