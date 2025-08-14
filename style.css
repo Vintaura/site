@@ -17,11 +17,19 @@ body {
   
 }
 
+@media only screen and (max-width: 600px) {
+  .container {
+    margin-top: -85px;
+    
+  }
+}
+
 .container {
-  margin-top: -85px;
+  
   padding: 20px;
   padding: 40px 20px;
   max-width: 600px;
+  min-width: 300px;
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -67,7 +75,7 @@ p {
 
 .btn {
   padding: 14px 20px;
-  border-radius: 27px;
+  border-radius: 20px;
   text-decoration: none;
   color: white;
   font-size: 1em;
@@ -76,10 +84,10 @@ p {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
-.facebook { background: #3b5998; }
-.instagram { background: #e4405f; }
-.whatsapp { background: #25d366; }
-.call { background: #8d6748; }
+.facebook { background: #3b5998; opacity : 0.9; }
+.instagram { background: #e4405f; opacity: 0.9; }
+.whatsapp { background: #25d366; opacity: 0.9; }
+.call { background: #8d6748; opacity: 0.9; }
 
 .btn:hover {
   transform: scale(1.05);
@@ -132,9 +140,11 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
- 
-  padding: 10px;
+  text-decoration-style: wavy;
+  padding: 20px;
   text-align: center;
   font-size: 14px;
   color: #333;
+  font-style: italic;
 }
+
