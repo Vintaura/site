@@ -3,7 +3,8 @@ body {
   padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   /* background: linear-gradient(135deg, #fdf6f0, #fceae3); */
-  background-image: url(U3xO.gif);
+  background-color: #C18D6A;
+  /*background-image: url(U3xO.gif);*/
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -15,7 +16,7 @@ body {
   justify-content: center;
   align-items: center;
   
-}
+}background-color
 
 @media only screen and (max-width: 600px) {
   .container {
@@ -147,4 +148,5 @@ footer {
   color: #333;
   font-style: italic;
 }
+
 
