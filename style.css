@@ -48,7 +48,7 @@ body {
 .logo {
   max-width: 190px;
   margin-bottom: 25px;
-  border-radius: 100%;
+  border-radius: 50%;
   animation: zoomIn 1.2s ease;
 }
 
@@ -149,6 +149,7 @@ footer {
   color: #333;
   font-style: italic;
 }
+
 
 
 
